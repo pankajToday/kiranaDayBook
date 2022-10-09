@@ -59,9 +59,10 @@
         if (!navbarCollapsible) {
           return;
         }
-        if (window.scrollY === 0) {
-          navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
+        if (window.scrollY === 0) { 
+        //  navbarCollapsible.classList.remove('navbar-shrink')
+        navbarCollapsible.classList.add('navbar-shrink')
+        } else {  
           navbarCollapsible.classList.add('navbar-shrink')
         }
 
